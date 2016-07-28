@@ -18,8 +18,6 @@ SOURCES += src/VKFriendsHits.cpp
 
 OTHER_FILES += qml/VKFriendsHits.qml \
     qml/cover/CoverPage.qml \
-    qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
     rpm/VKFriendsHits.changes.in \
     rpm/VKFriendsHits.spec \
     rpm/VKFriendsHits.yaml \
@@ -37,4 +35,10 @@ CONFIG += sailfishapp_i18n
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/VKFriendsHits-de.ts
+
+DISTFILES += \
+    qml/pages/LoginPage.qml \
+    qml/pages/SongList.qml \
+    database.js \
+    qml/pages/SongItem.qml
 

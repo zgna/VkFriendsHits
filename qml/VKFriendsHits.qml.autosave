@@ -39,7 +39,8 @@ ApplicationWindow
     _defaultPageOrientations: Orientation.All
 
     initialPage: {
-        if (accessToken.length > 0) {
+        //if (accessToken.length > 0) {
+        if(1){
             Qt.createComponent(Qt.resolvedUrl("pages/SongList.qml"))
         }
         else {
