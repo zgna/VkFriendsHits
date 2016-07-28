@@ -16,11 +16,26 @@
     </message>
 </context>
 <context>
-    <name>SongList</name>
+    <name>SongItem</name>
     <message>
-        <source>Nested Page</source>
+        <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deleting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SongList</name>
     <message>
         <source>Item</source>
         <translation type="unfinished"></translation>

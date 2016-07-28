@@ -36,12 +36,10 @@ Page {
     id: page
     SilicaListView {
         id: listView
-        model: 20
+        model: 50
         anchors.fill: parent
-        header: PageHeader {
-            title: qsTr("Nested Page")
-        }
-        delegate: BackgroundItem {
+
+        /*delegate: BackgroundItem {
             id: delegate
 
             Label {
@@ -51,7 +49,8 @@ Page {
                 color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
             }
             onClicked: console.log("Clicked " + index)
-        }
+        }*/
+        delegate: SongItem
         VerticalScrollDecorator {}
     }
 }
